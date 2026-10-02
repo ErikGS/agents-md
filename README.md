@@ -1,4 +1,4 @@
-# agents-md
+# AGENTS.md
 
 A convention for coordinating AI coding agents in a collaborative repository through plain Markdown files, including a ruleset for clean, non-destructive and effective code/repository collaboration and shared workspace management. So that any other human or agent can pick up the agentic work with all the context and information needed to continue from where it was left off, ensuring that agentic collaboration is done in a clean, non-destructive and effective way, with all the relevant information and context preserved as part of the repository's history.
 
