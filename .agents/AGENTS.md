@@ -58,21 +58,34 @@ capability that the CLI cannot access, or when a higher-priority instruction
 requires that integration. Do not install a new CLI only to avoid an already
 available MCP without first considering the dependency and environment impact.
 
-### Never commit without being asked
+### Always respect and follow established workflows, rules and conventions.
+
+Repository's established workflows, collaboration rules and conventions must be strictly followed. This includes, but is not limited to, branching strategies, commit message formats, code review processes, and coding standards. Any deviation from these established practices must be explicitly approved by the operator or documented in the global memory space to ensure clarity and maintainability of the repository's history.
+
+Common places where to look out for these are (if applicable):
+
+- The repository's documentation (e.g., `docs/` directory, `README.md`, `CONTRIBUTING.md`, `LICENSE.md`, etc.)
+- The repository's CI/CD configuration files (e.g., `.github/workflows/`, `.gitlab-ci.yml`, etc.)
+- The repository's issue tracker
+- The repository's pull request descriptions
+- The repository's commit messages.
+
+If these are not available nor contain sufficient information, the agent must identify a recommended approach based on well-established good practices and then ask — unless explicitly instructed otherwise — the operator for approval or, on denial, to inform a description of the desired workflow or convention.
+
+### Never commit without being asked — unless explicitly instructed otherwise
 
 Writing a file and committing it are separate acts. Write, report what changed,
 and stop. The operator commits, or asks for it explicitly.
 
 A commit taken without asking removes the chance to simply fix the file before
-it becomes history. "I needed a commit to deploy" is not a reason to skip
-asking — say that the deploy needs a commit and wait.
+it becomes history. "I needed a commit to deploy" is not in itself a reason to skip
+asking — unless explicitly instructed otherwise, say that the deploy needs a commit and wait.
 
-The same applies to anything outward-facing: `git push`, force push, publishing,
-and touching a remote. Ask first, every time.
+The same applies to anything inward or outward-facing: `git push`, `git pull`, `git fetch`, force
+push, publishing, and touching a remote. Ask first, every time — unless explicitly instructed otherwise.
 
-Do not `git reset` or restage as a shortcut to committing. If the operator
-arranged the index, that arrangement is a decision: files left outside the
-staged area were left there on purpose.
+Do not `git reset` or restage as a shortcut to committing. If the operator arranged the index, that
+arrangement is a decision: files left outside the staged area were left there on purpose.
 
 ### Never destroy `main`
 

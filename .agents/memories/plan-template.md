@@ -8,7 +8,7 @@ Objective: {specific objective}.
 
 ### {Draft / Archived / Pending (not started) / Canceled / In Progress / Completed / Not Completed (Execution stopped, awaiting completion)}.
 
-`{Approved / Rejected / Archived / Canceled / Under Review}` by operator `{authenticated operator ID (preferably git, or local user, etc.)} ({declared name, if any})` on `{YYYY-MM-DD hh:mm:ss UTC-hh:mm}`. Executor: `{agent name: Model and Harness}`.
+`{Approved / Rejected / Archived / Canceled / Under Review}` by operator `{authenticated operator ID (preferably git, or local user, etc.)} ({declared name, if any})` on `{YYYY-MM-DD hh:mm:ss UTC-hh:mm}`. Executor: `{agent name: Model (full name, including version) and Harness}`.
 
 ### {Waiting / Requirements / Dependencies / Pending Items / Blockers}:
 
@@ -16,7 +16,7 @@ Objective: {specific objective}.
 
 ### Progress
 
-- [ ] A: Example result 1 {`(implemented 2026-09-29 15:30:01 UTC-03:00, tested 2026-09-29 15:30:01 UTC-03:00, approved 2026-09-29 15:30:01 UTC-03:00)` [[#abc123](commit link, if applicable)]}.
+- [ ] A: Example result 1 {`(implemented 2026-09-29 15:30:01 UTC-03:00, tested 2026-09-29 15:30:01 UTC-03:00, approved 2026-09-29 15:30:01 UTC-03:00)` [[#abc123]({commit link, if applicable})]}.
 - [ ] B: Example result 2
 - [ ] C: Example result 3
 - [ ] Operator testing and commit.
