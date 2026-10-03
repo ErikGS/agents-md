@@ -1,8 +1,8 @@
 # AGENTS.md
 
-A convention for coordinating AI coding agents in a collaborative repository through plain Markdown files, including a ruleset for clean, non-destructive and effective code/repository collaboration and shared workspace management. So that any other human or agent can pick up the agentic work with all the context and information needed to continue from where it was left off, ensuring that agentic collaboration is done in a clean, non-destructive and effective way, with all the relevant information and context preserved as part of the repository's history.
+A convention for coordinating AI coding agents in a collaborative repository, including a ruleset for clean, non-destructive and effective code/repository collaboration and shared workspace management, so that any other human or agent can pick up the agentic work with all the context and information needed to continue from where it was left off, ensuring that agentic workflows happen in a clean, non-destructive and effective way, with all the relevant information and context from agentic runs commited as part of the repository's history.
 
-## How it works
+## How it Works and Why
 
 Instead of agents keeping its own individual memory, agents are instructed to read and write a shared space, ensuring that all relevant information is accessible to everyone involved, specially human developers. The main point is making the agentic work visible and understandable by placing all agents' activities into a single, centralized, easily accessible location under the repository's root ([.agents/](.agents/)), enabling traceability and accountability by having agents' context and activities become part of the repository's history.
 
