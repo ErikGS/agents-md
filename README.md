@@ -4,7 +4,7 @@ A convention for coordinating AI coding agents in a collaborative repository, in
 
 ## How it Works and Why
 
-Instead of agents keeping its own individual memory, agents are instructed to read and write a shared space, making the agentic activity visible and understandable by centralizing agents' activities into a single, standardized and accessible location ([.agents/](.agents/)), mainly **enabling _traceability_ and _accountability_ by having agents' context and activities become part of the repository's history**.
+Instead of agents keeping its own individual memory, agents are instructed to read and write a shared space, making the agentic activity visible and understandable by centralizing agents' activities into a single, standardized and accessible location ([.agents/](.agents/)), **enabling traceability and accountability** by having agents' context and activities become part of the repository's history.
 
 The point is enabling human developers and collaborators to better keep track of whatever AI agents have done, are doing or plan to do, specially the how and why. While the other obvious benefit of that is that it also enables agents the same, so agents can effectively inherit context from truly different sessions, as their memories become actual part of the repository's history.
 
